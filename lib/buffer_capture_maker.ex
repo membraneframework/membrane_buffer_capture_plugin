@@ -1,4 +1,4 @@
-defmodule Membrane.BufferCaptureMaker do
+defmodule Membrane.BufferCapture.CaptureMaker do
   use Membrane.Sink
 
   def_options location: [type: :string, description: "Path to save location"]
